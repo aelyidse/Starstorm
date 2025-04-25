@@ -1,0 +1,109 @@
+{
+  "output_dir": "test_results",
+  "scenario_tests": {
+    "name": "StarstormScenarioTests",
+    "modules": ["ai", "control", "communications", "propulsion"],
+    "test_cases": [
+      {
+        "name": "AutonomyLevelTransitionTest",
+        "scenarios": [
+          {
+            "name": "manual_to_supervised",
+            "inputs": {
+              "from_level": "manual",
+              "to_level": "supervised",
+              "role": "operator"
+            },
+            "expected_outputs": {
+              "success": true,
+              "current_level": "supervised"
+            }
+          },
+          {
+            "name": "unauthorized_transition",
+            "inputs": {
+              "from_level": "supervised",
+              "to_level": "autonomous",
+              "role": "operator"
+            },
+            "expected_outputs": {
+              "success": false,
+              "current_level": "supervised"
+            }
+          }
+        ]
+      },
+      {
+        "name": "CommandExecutionTest",
+        "scenarios": [
+          {
+            "name": "valid_command",
+            "inputs": {
+              "command": {
+                "type": "navigation",
+                "params": {
+                  "heading": 90,
+                  "speed": 5
+                }
+              }
+            },
+            "expected_outputs": {
+              "success": true,
+              "error": null
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "performance_tests": {
+    "name": "StarstormPerformanceBenchmarks",
+    "benchmarks": [
+      {
+        "name": "AutonomyLevelTransitionBenchmark",
+        "function": "set_level",
+        "iterations": 100,
+        "warmup": 10,
+        "params": {
+          "target_level": "supervised",
+          "role": "mission_commander"
+        }
+      },
+      {
+        "name": "CommandExecutionBenchmark",
+        "function": "execute",
+        "iterations": 100,
+        "warmup": 10,
+        "params": {
+          "command": {
+            "type": "status_report"
+          }
+        }
+      }
+    ]
+  },
+  "regression_tests": {
+    "name": "StarstormRegressionTests",
+    "output_dir": "regression_reports",
+    "tests": [
+      {
+        "name": "AutonomyLevelManagerTest",
+        "class": "GitIntegrationTest",
+        "test_inputs": {
+          "levels": ["manual", "supervised", "autonomous"],
+          "role": "mission_commander"
+        }
+      },
+      {
+        "name": "CommandHistoryTest",
+        "class": "RegressionTest",
+        "test_inputs": {
+          "commands": [
+            {"type": "navigation", "params": {"heading": 90}},
+            {"type": "data_collection", "params": {"duration": 10}}
+          ]
+        }
+      }
+    ]
+  }
+}

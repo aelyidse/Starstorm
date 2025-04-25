@@ -1,0 +1,67 @@
+# STARSTORM SDK PROPRIETARY LICENSE
+
+## Version 1.0, [Current Date]
+
+### TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
+
+1. **DEFINITIONS**
+
+   "Software" refers to the Starstorm SDK, which includes all source code, documentation, examples, models, and related materials provided in this repository.
+   
+   "Licensor" refers to the copyright holders and contributors of the Starstorm SDK.
+   
+   "Licensee" refers to any individual or entity that obtains or uses the Software.
+
+2. **GRANT OF LICENSE**
+
+   Subject to the terms and conditions of this License, the Licensor hereby grants to the Licensee a non-exclusive, non-transferable, revocable license to use the Software solely for Educational and Research Purposes.
+
+3. **EDUCATIONAL AND RESEARCH PURPOSES**
+
+   "Educational and Research Purposes" means:
+   
+   a. Academic instruction and learning at accredited educational institutions;
+   b. Academic research activities conducted at recognized research institutions;
+   c. Personal study and experimentation for skill development;
+   d. Theoretical modeling and simulation of aerospace systems;
+   e. Development of algorithms and methodologies related to autonomous systems.
+
+4. **RESTRICTIONS**
+
+   The Licensee shall NOT use the Software for:
+   
+   a. Commercial purposes, including but not limited to selling, licensing, or using the Software to provide services for a fee;
+   b. Development of operational spacecraft or drones intended for deployment;
+   c. Military applications or weapons development;
+   d. Any purpose that violates applicable laws or regulations;
+   e. Any purpose not explicitly defined as Educational and Research Purposes.
+
+5. **DISTRIBUTION**
+
+   The Licensee may not distribute, sublicense, or make the Software available to any third party without prior written consent from the Licensor.
+
+6. **MODIFICATIONS**
+
+   The Licensee may modify the Software for Educational and Research Purposes only. All modifications remain subject to the terms of this License.
+
+7. **ATTRIBUTION**
+
+   Any academic publications, presentations, or reports resulting from the use of the Software must acknowledge the Starstorm SDK and its creators.
+
+8. **NO WARRANTY**
+
+   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+9. **TERMINATION**
+
+   This License automatically terminates if the Licensee breaches any of its terms and conditions. Upon termination, the Licensee must cease all use of the Software and destroy all copies in their possession.
+
+10. **GOVERNING LAW**
+
+    This License shall be governed by and construed in accordance with the laws of [Jurisdiction], without regard to its conflict of law principles.
+
+11. **ENTIRE AGREEMENT**
+
+    This License constitutes the entire agreement between the parties with respect to the use of the Software and supersedes all prior or contemporaneous understandings regarding such subject matter.
+
+By using the Starstorm SDK, you acknowledge that you have read this License, understand it, and agree to be bound by its terms and conditions.

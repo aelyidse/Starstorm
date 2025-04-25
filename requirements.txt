@@ -1,0 +1,14 @@
+numpy>=1.19
+scipy>=1.5
+matplotlib>=3.3
+pandas>=1.1
+networkx>=2.5
+pyyaml>=5.3
+pytest>=6.0
+# For async/event-driven modules
+asyncio; python_version>='3.7'
+# For type hints and dataclasses (Python 3.7+)
+typing-extensions>=3.7
+dataclasses; python_version<'3.7'
+# For documentation tools (optional)
+sphinx>=3.0

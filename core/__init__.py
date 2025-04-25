@@ -1,0 +1,1 @@
+# Starstorm core package initialization
